@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <button id="startOrStop">开始</button>
+        <button id="pauseOrResume">暂停</button>
+        <button id="save">保存</button>
+        <span id="infoWindow">视频设备初始化失败...</span>
+
+        <script>
+            const myRecorder = require('./ScreenRecorder');
+            new myRecorder();
+        </script>
+    </body>
+</html>
