@@ -1,0 +1,4 @@
+# ScreenRecorder
+
+npm i
+electron .
