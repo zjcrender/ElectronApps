@@ -1,4 +1,4 @@
 # ScreenRecorder
 
-npm i
-electron .
+- npm i
+- electron .
